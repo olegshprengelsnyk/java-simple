@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.github.oleg</groupId>
+    <artifactId>java-test</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>Java Test</name>
+    <description>A simple java test for scanning with snyk</description>
+    <url>https://github.com/snyk-labs/java-goof</url>
+    <packaging>pom</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-orm</artifactId>
+            <version>5.2.20.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+            <version>3.2.6.RELEASE</version>
+        </dependency>
+    </dependencies>
+
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+</project>
+
+
